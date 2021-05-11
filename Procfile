@@ -1,1 +1,0 @@
-web: hypercorn scpinfosite -b 0.0.0.0:$PORT

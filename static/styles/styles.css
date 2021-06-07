@@ -119,13 +119,24 @@ h2 {
 }
 
 figcaption {
-    color: #dc3545;
+    color: #c9d1d9;
+    margin-top: 20px
 }
 
 .keegs_img {
     margin-top: 50px;
+    margin-left: 10px;
 }
+
+/* .keegs_img:hover {
+    position: relative;
+    top: -5px;
+    left: -10px;
+    width: 300px;
+    height: auto;
+} */
 
 .tqter_img {
     margin-top: 50px;
+    margin-left: 10px;
 }

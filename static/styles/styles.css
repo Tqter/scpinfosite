@@ -77,7 +77,7 @@ h2 {
 .copyright {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 10px;
     color: #c9d1d9;
 }
 
@@ -112,4 +112,20 @@ h2 {
 
 .support-link:hover {
     color: #c9d1d9
+}
+
+.popup {
+    color: #dc3545;
+}
+
+figcaption {
+    color: #dc3545;
+}
+
+.keegs_img {
+    margin-top: 50px;
+}
+
+.tqter_img {
+    margin-top: 50px;
 }

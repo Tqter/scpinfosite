@@ -17,6 +17,10 @@ def about():
 def vote():
     return render_template("vote.html")
 
+@app.route("/invite")
+def invite():
+    return redirect(url_for("https://discord.com/api/oauth2/authorize?client_id=818294562677588009&permissions=2553671104&scope=bot")
+
 
 @app.route("/commands")
 def commands():

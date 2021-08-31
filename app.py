@@ -19,7 +19,7 @@ def vote():
 
 @app.route("/invite")
 def invite():
-    return redirect("https://discord.com/api/oauth2/authorize?client_id=818294562677588009&permissions=2553671104&scope=bot", code=302)
+    return redirect("https://discord.com/api/oauth2/authorize?client_id=818294562677588009&permissions=8&scope=applications.commands%20bot", code=302)
 
 
 @app.route("/commands")
